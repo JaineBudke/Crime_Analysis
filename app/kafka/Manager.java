@@ -21,6 +21,9 @@ public class Manager {
 	
 	public static void runConsumer() {
 		
+		CassandraConnector.startConnection();
+		CassandraConnector.startSession("furtos");
+		
 		
 		
 		Consumer<Long, String> consumer = ConsumerCreator.createConsumer();
@@ -71,6 +74,10 @@ public class Manager {
 			
 		}
 		consumer.close();
+		
+		CassandraConnector.closeConnection();
+		
+		
 	}
 	
 	

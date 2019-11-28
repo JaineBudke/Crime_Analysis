@@ -4,7 +4,7 @@
 		module="example-play-akka_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20191127180615"
+		publication="20191127231548"
 	>
 		<description>
 		example-play-akka

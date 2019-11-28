@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/jainebudke/Área de Trabalho/example-play-akka-master/conf/routes,/home/jainebudke/Área de Trabalho/example-play-akka-master/target/scala-2.11/classes/routes)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/jainebudke/Área de Trabalho/example-play-akka-master/conf/logback.xml,/home/jainebudke/Área de Trabalho/example-play-akka-master/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/jainebudke/Área de Trabalho/example-play-akka-master/conf/application.conf,/home/jainebudke/Área de Trabalho/example-play-akka-master/target/scala-2.11/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/jainebudke/SMACK/conf/application.conf,/home/jainebudke/SMACK/target/scala-2.11/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/jainebudke/SMACK/conf/routes,/home/jainebudke/SMACK/target/scala-2.11/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/jainebudke/SMACK/conf/logback.xml,/home/jainebudke/SMACK/target/scala-2.11/classes/logback.xml)[0m

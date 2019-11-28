@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/jainebudke/Área de Trabalho/example-play-akka-master/conf/routes
-// @DATE:Wed Nov 27 18:06:15 BRT 2019
+// @SOURCE:/home/jainebudke/SMACK/conf/routes
+// @DATE:Wed Nov 27 23:15:46 UTC 2019
 
 package controllers;
 

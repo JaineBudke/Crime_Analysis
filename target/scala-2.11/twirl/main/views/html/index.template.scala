@@ -50,8 +50,8 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Nov 26 09:07:17 BRT 2019
-                  SOURCE: /home/jainebudke/Área de Trabalho/example-play-akka-master/app/views/index.scala.html
+                  DATE: Wed Nov 27 23:15:46 UTC 2019
+                  SOURCE: /home/jainebudke/SMACK/app/views/index.scala.html
                   HASH: 67b937a05e54d20e5d952b2935d6a9ae54a65145
                   MATRIX: 941->1|1037->4|1064->6|1090->24|1129->26|1158->29|1214->56
                   LINES: 28->1|33->2|34->3|34->3|34->3|35->4|36->5

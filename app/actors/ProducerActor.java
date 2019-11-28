@@ -3,6 +3,7 @@ package actors;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
+import kafka.Manager;
 import messages.ResultRequest;
 
 public class ProducerActor extends AbstractActor{
@@ -21,9 +22,9 @@ public class ProducerActor extends AbstractActor{
 				.match(String.class, s -> {
 					sender().tell(producer(s)+", I'm an actor!", getSelf());
 	            })
-				.match(String.class, msg-> {
+				/*.match(String.class, msg-> {
 					consumerActor.tell(msg, getSelf());
-				})
+				})*/
 		        .match(Integer.class, msg-> {
 		        	getSender().tell(msg+", I'm an actor!", self());
 		        })
@@ -31,6 +32,8 @@ public class ProducerActor extends AbstractActor{
 	}
 	
 	private String producer(String line) {
+		
+		Manager.runProducer();
 		
 		return "Produzindo";
 		

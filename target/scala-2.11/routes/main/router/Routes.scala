@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/jainebudke/Área de Trabalho/example-play-akka-master/conf/routes
-// @DATE:Wed Nov 27 18:06:15 BRT 2019
+// @DATE:Thu Nov 28 09:56:07 BRT 2019
 
 package router
 
@@ -37,6 +37,7 @@ class Routes(
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """loadData""", """controllers.HomeController.loadData()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """classifier/""" + "$" + """cor<.+>/""" + "$" + """turno<.+>/""" + "$" + """sexo<.+>""", """controllers.HomeController.classifier(cor:String, turno:String, sexo:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -80,6 +81,24 @@ class Routes(
     )
   )
 
+  // @LINE:10
+  private[this] lazy val controllers_HomeController_classifier2_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("classifier/"), DynamicPart("cor", """.+""",false), StaticPart("/"), DynamicPart("turno", """.+""",false), StaticPart("/"), DynamicPart("sexo", """.+""",false)))
+  )
+  private[this] lazy val controllers_HomeController_classifier2_invoker = createInvoker(
+    HomeController_0.classifier(fakeValue[String], fakeValue[String], fakeValue[String]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.HomeController",
+      "classifier",
+      Seq(classOf[String], classOf[String], classOf[String]),
+      "GET",
+      this.prefix + """classifier/""" + "$" + """cor<.+>/""" + "$" + """turno<.+>/""" + "$" + """sexo<.+>""",
+      """""",
+      Seq()
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -93,6 +112,12 @@ class Routes(
     case controllers_HomeController_loadData1_route(params@_) =>
       call { 
         controllers_HomeController_loadData1_invoker.call(HomeController_0.loadData())
+      }
+  
+    // @LINE:10
+    case controllers_HomeController_classifier2_route(params@_) =>
+      call(params.fromPath[String]("cor", None), params.fromPath[String]("turno", None), params.fromPath[String]("sexo", None)) { (cor, turno, sexo) =>
+        controllers_HomeController_classifier2_invoker.call(HomeController_0.classifier(cor, turno, sexo))
       }
   }
 }

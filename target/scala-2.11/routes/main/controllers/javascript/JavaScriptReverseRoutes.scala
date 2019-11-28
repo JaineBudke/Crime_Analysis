@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/jainebudke/Área de Trabalho/example-play-akka-master/conf/routes
-// @DATE:Wed Nov 27 18:06:15 BRT 2019
+// @DATE:Thu Nov 28 09:56:07 BRT 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -18,6 +18,16 @@ package controllers.javascript {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
+  
+    // @LINE:10
+    def classifier: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.classifier",
+      """
+        function(cor0,turno1,sexo2) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "classifier/" + (""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("cor", cor0) + "/" + (""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("turno", turno1) + "/" + (""" + implicitly[play.api.mvc.PathBindable[String]].javascriptUnbind + """)("sexo", sexo2)})
+        }
+      """
+    )
   
     // @LINE:8
     def loadData: JavaScriptReverseRoute = JavaScriptReverseRoute(

@@ -26,7 +26,7 @@ public class ProducerActor extends AbstractActor{
 					consumerActor.tell(msg, getSelf());
 				})*/
 		        .match(Integer.class, msg-> {
-		        	getSender().tell(msg+", I'm an actor!", self());
+		        	getSender().tell(msg, self());
 		        })
 				.build();
 	}

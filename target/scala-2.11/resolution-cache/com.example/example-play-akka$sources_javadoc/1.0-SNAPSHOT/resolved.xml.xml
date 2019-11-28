@@ -4,7 +4,7 @@
 		module="example-play-akka$sources_javadoc"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20191128180927"
+		publication="20191128194944"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

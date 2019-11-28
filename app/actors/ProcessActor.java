@@ -13,8 +13,17 @@ import kafka.Manager;
 
 public class ProcessActor extends AbstractActor{
 
+    
+    public Integer num = 0;
+
     public ProcessActor() {
-    	
+		SparkConf conf = new SparkConf(true)//
+				.setAppName("MyApp")//
+				.setMaster("spark://10.128.0.6:7077");		
+   		JavaSparkContext sc = new JavaSparkContext(conf);
+    	JavaRDD<Integer> numbers = sc.parallelize(Arrays.asList(14,21,88,99,455)); 
+		num = numbers.first();
+		sc.close();
     }
 	
 	public static Props props() {
@@ -27,18 +36,14 @@ public class ProcessActor extends AbstractActor{
 	public Receive createReceive() {
 		return receiveBuilder()
 				.match(String.class, s -> {
-					sender().tell(process(s), getSelf());
-	            })
-		        .match(Integer.class, msg-> {
-		        	getSender().tell(msg+", I'm an actor!", self());
-		        })        
-				.build();
+					sender().tell(s+", I'm an actor using Spark! The first element of the RDD is "+ String.valueOf(num), self());
+				})
+		        .build();
 	}
 	
-	
-	private String process(String line) {
-		
+	/*
 
+<<<<<<< HEAD
 		// Processar mensagem
 		String[] parts = line.split(",");
 		
@@ -54,5 +59,7 @@ public class ProcessActor extends AbstractActor{
 		return "Processou: "+parts[0]+" e "+parts[1]+" e "+ parts[2] + " Spark:"+num;
 		
 	}
-
+=======
+>>>>>>> 1be2e2a5aef77a5f7d52fc51554b883f06ea19f9
+*/
 }

@@ -18,6 +18,7 @@ public class HomeController extends Controller {
 
     final ActorSystem actorSystem = ActorSystem.create("playakka");
     final ActorRef producerActor = actorSystem.actorOf(ProducerActor.props());
+    final ActorRef consumerActor = actorSystem.actorOf(ConsumerActor.props());
 
 
     public Result index() {
@@ -27,8 +28,9 @@ public class HomeController extends Controller {
 
     
     public CompletionStage<Result> loadData() {
+    	ask(producerActor, "Carregar dados", 10000);
         return FutureConverters.toJava(
-            ask(producerActor, "Carregar dados", 10000))
+            ask(consumerActor, "Consumir dados", 10000))
                 .thenApply(response -> ok(views.html.actor.render(response.toString())));
     }
     

@@ -89,14 +89,14 @@ public class Manager {
 		
 		int id = 0;
 		
-
-		
 		
 		// enquanto tiver linhas
 		while( (line = archive.getLine()) != "" ) {			
 		
-			String message = String.valueOf(id)+","+archive.process(line);
+			String message = archive.process(line);
 			if( !message.equals("") ) {
+				
+				message = String.valueOf(id)+","+message;
 				
 				// par chave(nome do tópico)/valor a ser enviado pro kafka.
 				final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,

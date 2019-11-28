@@ -4,7 +4,7 @@
 		module="smack-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20191127231229"
+		publication="20191128133630"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

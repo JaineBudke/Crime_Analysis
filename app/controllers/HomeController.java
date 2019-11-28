@@ -20,6 +20,9 @@ public class HomeController extends Controller {
     final ActorRef producerActor = actorSystem.actorOf(ProducerActor.props());
     final ActorRef consumerActor = actorSystem.actorOf(ConsumerActor.props());
 
+    final ActorRef processActor = actorSystem.actorOf(ProcessActor.props());
+    
+    
 
     public Result index() {
         return ok(views.html.index.render());
@@ -37,7 +40,7 @@ public class HomeController extends Controller {
     
     public CompletionStage<Result> classifier(String cor, String turno, String sexo) {
         return FutureConverters.toJava(
-            ask(helloActor, "Cor: "+cor+"; Turno: "+turno+"; Sexo"+sexo, 2000))
+            ask(processActor, ""+cor+","+turno+","+sexo, 2000))
                 .thenApply(response -> ok(views.html.actor.render(response.toString())));
     }
 

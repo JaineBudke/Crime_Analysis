@@ -96,9 +96,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.11/docs/ssl-config-core_2.11-0.2.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.1.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.1.1.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.6.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.1.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.0.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/srcs/akka-slf4j_2.11-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.5.17.jar">
@@ -140,6 +140,11 @@
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.9.9-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.google.guava/guava/srcs/guava-22.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.guava/guava/bundles/guava-22.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.google.guava/guava/docs/guava-22.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.google.errorprone/error_prone_annotations/srcs/error_prone_annotations-2.0.18-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.errorprone/error_prone_annotations/jars/error_prone_annotations-2.0.18.jar">
@@ -403,7 +408,7 @@
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.4.0.jar"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.8.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.8.2.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.8.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.avro/avro/jars/avro-1.8.2.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.apache.avro/avro/docs/avro-1.8.2-javadoc.jar!/"/>
     </attributes>
@@ -434,7 +439,7 @@
     </attributes>
   </classpathentry>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.8.2-hadoop2.jar"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.avro/avro-ipc/srcs/avro-ipc-1.8.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.avro/avro-ipc/bundles/avro-ipc-1.8.2.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.avro/avro-ipc/srcs/avro-ipc-1.8.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.8.2.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.apache.avro/avro-ipc/docs/avro-ipc-1.8.2-javadoc.jar!/"/>
     </attributes>
@@ -903,7 +908,6 @@
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.commons/commons-exec/jars/commons-exec-1.3.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.8.0.jar"/>
-  <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.guava/guava/jars/guava-23.0.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.3.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.6.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.1.0.jar"/>

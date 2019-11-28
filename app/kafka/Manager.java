@@ -28,10 +28,10 @@ public class Manager {
 		int noMessageToFetch = 0;
 
 		
-		String[] colunasInsert = {"furtos_id", "cor", "turno", "sexo"};
-		String[] valoresInsert = {"1001", "branca", "tarde", "F"};
+		String[] colunastesteInsert = {"furtos_id", "cor", "turno", "sexo"};
+		String[] valorestesteInsert = {"1001", "branca", "tarde", "F"};
 		
-		CassandraConnector.insertData("FurtosTable", colunasInsert, valoresInsert);
+		CassandraConnector.insertData("FurtosTable", colunastesteInsert, valorestesteInsert);
 		
 		
 		// enquanto tiver mensagem pra ser consumida

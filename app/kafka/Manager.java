@@ -77,7 +77,7 @@ public class Manager {
 		Producer<Long, String> producer = ProducerCreator.createProducer();
 		
 		
-		ArchiveRead archive = null;
+		/*ArchiveRead archive = null;
 		try {
 			archive = new ArchiveRead();
 		} catch (FileNotFoundException e1) {
@@ -87,7 +87,31 @@ public class Manager {
 		String line;
 		
 		int id = 0;
+		*/
+		for( int i=0; i<10; i++) {
+			
 		
+		// par chave(nome do tópico)/valor a ser enviado pro kafka.
+		final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
+				String.valueOf(i));
+		
+		try {
+			
+			// envia dado pro servidor kafka
+			RecordMetadata metadata = producer.send(record).get();
+			System.out.println("Record sent with key " + i + " to partition " + metadata.partition()
+					+ " with offset " + metadata.offset());
+			
+		} catch (ExecutionException e) {
+			System.out.println("Error in sending record");
+			System.out.println(e);
+		} catch (InterruptedException e) {
+			System.out.println("Error in sending record");
+			System.out.println(e);
+		}
+		}
+		
+		/*
 		// enquanto tiver linhas
 		while( (line = archive.getLine()) != "" ) {			
 		
@@ -118,7 +142,7 @@ public class Manager {
 			
 			id += 1;
 			
-		}
+		}*/
 		
 	}
 	

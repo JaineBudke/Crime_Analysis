@@ -22,9 +22,9 @@ public class ProducerActor extends AbstractActor{
 				.match(String.class, s -> {
 					sender().tell(producer(s)+", I'm an actor!", getSelf());
 	            })
-				.match(String.class, msg-> {
+				/*.match(String.class, msg-> {
 					consumerActor.tell(msg, getSelf());
-				})
+				})*/
 		        .match(Integer.class, msg-> {
 		        	getSender().tell(msg+", I'm an actor!", self());
 		        })

@@ -96,7 +96,7 @@ public class ArchiveRead {
 		int tam = parts.length;
 		
 		// verifica se é furto
-		String rubrica = (parts[16].split(" "))[0];
+		String rubrica = (parts[17].split(" "))[0];
 
 		// se for, pode analisar o restante dos casos
 		if("\"Furto".equals(rubrica) || "Furto".equals(rubrica) ) {
@@ -125,15 +125,15 @@ public class ArchiveRead {
 				
 			
 			// recupera a coluna referente a "hora"
-			if( !parts[13].equals("NULL")){					
+			if( !parts[14].equals("NULL")){					
 				
 				int hourLine = 0;
 				
 				// trata o formato da hora
-				if( parts[13].split(":").length > 1 ){
-					hourLine = Integer.parseInt((parts[13].split(":")[0]));
-				} else if( parts[13].split("H").length > 1 ){
-					hourLine = Integer.parseInt((parts[13].split("H")[0]));
+				if( parts[14].split(":").length > 1 ){
+					hourLine = Integer.parseInt((parts[14].split(":")[0]));
+				} else if( parts[14].split("H").length > 1 ){
+					hourLine = Integer.parseInt((parts[14].split("H")[0]));
 				}
 					
 				

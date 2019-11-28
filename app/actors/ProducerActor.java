@@ -3,6 +3,7 @@ package actors;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
+import kafka.Manager;
 import messages.ResultRequest;
 
 public class ProducerActor extends AbstractActor{
@@ -31,6 +32,8 @@ public class ProducerActor extends AbstractActor{
 	}
 	
 	private String producer(String line) {
+		
+		Manager.runConsumer();
 		
 		return "Produzindo";
 		

@@ -2,6 +2,7 @@ package actors;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;
+import kafka.Manager;
 import akka.actor.AbstractActor.Receive;
 
 public class ConsumerActor extends AbstractActor {
@@ -20,6 +21,9 @@ public class ConsumerActor extends AbstractActor {
 	}
 	
 	private String consumer(String line) {
+		
+		Manager.runConsumer();
+		
 		
 		return "Consumindo";
 		

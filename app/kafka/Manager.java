@@ -26,14 +26,7 @@ public class Manager {
 		Consumer<Long, String> consumer = ConsumerCreator.createConsumer();
 
 		int noMessageToFetch = 0;
-
-		
-		String[] colunastesteInsert = {"furtos_id", "cor", "turno", "sexo"};
-		String[] valorestesteInsert = {"1001", "branca", "tarde", "F"};
-		
-		CassandraConnector.insertData("FurtosTable", colunastesteInsert, valorestesteInsert);
-		
-		
+	
 		// enquanto tiver mensagem pra ser consumida
 		for (int i=0; i<10000; i++) {
 			

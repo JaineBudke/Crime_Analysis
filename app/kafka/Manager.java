@@ -73,30 +73,9 @@ public class Manager {
 	
 	
 	public static void runProducer() {
-	
+		
 		
 		Producer<Long, String> producer = ProducerCreator.createProducer();
-
-		for (int index = 0; index < IKafkaConstants.MESSAGE_COUNT; index++) {
-			final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
-					"This is record " + index);
-			try {
-				RecordMetadata metadata = producer.send(record).get();
-				System.out.println("Record sent with key " + index + " to partition " + metadata.partition()
-						+ " with offset " + metadata.offset());
-			} catch (ExecutionException e) {
-				System.out.println("Error in sending record");
-				System.out.println(e);
-			} catch (InterruptedException e) {
-				System.out.println("Error in sending record");
-				System.out.println(e);
-			}
-		}
-
-		
-		
-		
-		/*Producer<Long, String> producer = ProducerCreator.createProducer();
 		
 		
 		ArchiveRead archive = null;
@@ -109,10 +88,10 @@ public class Manager {
 		String line;
 		
 		int id = 0;
-		*/
+		
 
 		
-		/*
+		
 		// enquanto tiver linhas
 		while( (line = archive.getLine()) != "" ) {			
 		
@@ -143,7 +122,7 @@ public class Manager {
 			
 			id += 1;
 			
-		}*/
+		}
 		
 	}
 	

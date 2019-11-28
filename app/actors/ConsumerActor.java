@@ -1,5 +1,6 @@
 package actors;
 
+import cassandra.CassandraConnector;
 import akka.actor.AbstractActor;
 import akka.actor.Props;
 import kafka.Manager;
@@ -22,7 +23,13 @@ public class ConsumerActor extends AbstractActor {
 	
 	private String consumer(String line) {
 		
+		CassandraConnector.startConnection();
+		CassandraConnector.startSession("furtos");
+		
+		
 		Manager.runConsumer();
+		
+		CassandraConnector.closeConnection();
 		
 		
 		return "Consumindo";

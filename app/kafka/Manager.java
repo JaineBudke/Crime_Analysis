@@ -28,7 +28,7 @@ public class Manager {
 		int noMessageToFetch = 0;
 
 		// enquanto tiver mensagem pra ser consumida
-		while (true) {
+		for (int i=0; i<10000; i++) {
 			
 			// guarda uma lista de ConsumerRecord recebido pelo kafka
 			final ConsumerRecords<Long, String> consumerRecords = consumer.poll(1000);

@@ -42,7 +42,7 @@ public class ProcessActor extends AbstractActor{
 		// Processar mensagem
 		String[] parts = line.split(",");
 		
-		SparkConf conf = new SparkConf(true)//
+		SparkConf conf = new SparkConf()//
 				.setAppName("MyApp")//
 				.setMaster("spark://10.128.0.6:7077");		
 		JavaSparkContext sc = new JavaSparkContext(conf);

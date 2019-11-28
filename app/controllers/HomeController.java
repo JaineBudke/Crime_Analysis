@@ -31,16 +31,16 @@ public class HomeController extends Controller {
 
     
     public CompletionStage<Result> loadData() {
-    	ask(producerActor, "Carregar dados", 10000);
+    	ask(producerActor, "Carregar dados", 100000);
         return FutureConverters.toJava(
-            ask(consumerActor, "Consumir dados", 10000))
+            ask(consumerActor, "Consumir dados", 100000))
                 .thenApply(response -> ok(views.html.actor.render(response.toString())));
     }
     
     
     public CompletionStage<Result> classifier(String cor, String turno, String sexo) {
         return FutureConverters.toJava(
-            ask(processActor, ""+cor+","+turno+","+sexo, 2000))
+            ask(processActor, ""+cor+","+turno+","+sexo, 100000))
                 .thenApply(response -> ok(views.html.actor.render(response.toString())));
     }
 

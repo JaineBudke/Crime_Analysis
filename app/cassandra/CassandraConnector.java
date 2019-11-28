@@ -78,7 +78,7 @@ public class CassandraConnector {
     	String values = "";
     	
 		campos += columns[0]+",";
-    	values += valores[0]+",";
+    	values += Integer.parseInt(valores[0])+",";
     	
     	for( int i=1; i<columns.length; i++ ) {
     		campos += columns[i]+",";

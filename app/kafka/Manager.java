@@ -53,6 +53,8 @@ public class Manager {
 				// AQUI FICA O PROCESSAMENTO DAS MENSAGENS, OU SEJA, MANDAR PRO CASSANDRA
 				String[] parts = record.value().split(",");
 				
+				System.out.println(parts[0]+"  "+parts[1]+"  "+parts[2]+"  "+parts[3]);
+				
 				// ARMAZENAR NO CASSANDRA
 				String[] colunasInsert = {"furtos_id", "cor", "turno", "sexo"};
 				String[] valoresInsert = {parts[0], parts[1], parts[2], parts[3]};

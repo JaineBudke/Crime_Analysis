@@ -35,5 +35,12 @@ public class HomeController extends Controller {
     }
     
     
+    public CompletionStage<Result> classifier(String cor, String turno, String sexo) {
+        return FutureConverters.toJava(
+            ask(helloActor, "Cor: "+cor+"; Turno: "+turno+"; Sexo"+sexo, 2000))
+                .thenApply(response -> ok(views.html.actor.render(response.toString())));
+    }
+
+    
     
 }

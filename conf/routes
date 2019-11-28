@@ -6,3 +6,5 @@
 GET     /                     controllers.HomeController.index()
 
 GET /loadData			controllers.HomeController.loadData()
+
+GET /classifier/*cor/*turno/*sexo       controllers.HomeController.classifier(cor, turno, sexo)

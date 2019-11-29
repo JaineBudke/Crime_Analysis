@@ -64,7 +64,7 @@ public class CassandraConnector {
     	cquery += "PRIMARY KEY (" + columnsName[primaryKey] +")";
     	
     	session.execute("CREATE TABLE "+tableName+ " ("+cquery+")");
-    	
+
     }
     
     public static void dropTable( String table ){

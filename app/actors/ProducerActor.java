@@ -3,6 +3,7 @@ package actors;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
+import cassandra.CassandraConnector;
 import kafka.Manager;
 import messages.ResultRequest;
 
@@ -33,6 +34,18 @@ public class ProducerActor extends AbstractActor{
 	
 	private String producer(String line) {
 				
+		CassandraConnector.startConnection();
+		
+		CassandraConnector.createKeyspace("Furtos");
+		CassandraConnector.startSession("furtos");
+		
+		String[] colunasFurtos = {"furtos_id", "cor", "turno", "sexo"};
+		String[] tipoDataFurtos = {"int", "text", "text", "text"};
+
+		CassandraConnector.createTable("FurtosTable", colunasFurtos, tipoDataFurtos, 0);
+
+		CassandraConnector.closeConnection();
+		
 		Manager.runProducer();
 		
 		return "Produzindo";

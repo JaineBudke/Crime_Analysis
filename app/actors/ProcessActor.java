@@ -13,7 +13,7 @@ import kafka.Manager;
 
 public class ProcessActor extends AbstractActor{
 
-    
+/*    
     public Integer num = 0;
 
     public ProcessActor() {
@@ -25,7 +25,7 @@ public class ProcessActor extends AbstractActor{
 		num = numbers.first();
 		sc.close();
     }
-	
+*/	
 	public static Props props() {
 		return Props.create(ProcessActor.class);
 	}
@@ -36,11 +36,17 @@ public class ProcessActor extends AbstractActor{
 	public Receive createReceive() {
 		return receiveBuilder()
 				.match(String.class, s -> {
-					sender().tell(s+", I'm an actor using Spark! The first element of the RDD is "+ String.valueOf(num), self());
+					sender().tell(process(s)+", I'm an actor using Spark!");
 				})
 		        .build();
 	}
 	
+	public String process(String s){
+
+		
+
+	}
+
 	/*
 
 <<<<<<< HEAD

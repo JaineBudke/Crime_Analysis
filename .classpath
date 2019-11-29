@@ -1,29 +1,29 @@
 <classpath>
   <classpathentry kind="src" path="app"/>
   <classpathentry kind="src" path="conf"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.12-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.12.8-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/twirl-api_2.11/srcs/twirl-api_2.11-1.3.15-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.3.15.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/twirl-api_2.12/srcs/twirl-api_2.12-1.3.15-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.3.15.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/twirl-api_2.11/docs/twirl-api_2.11-1.3.15-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/twirl-api_2.12/docs/twirl-api_2.12-1.3.15-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.6.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.6-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/docs/scala-xml_2.12-1.0.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-server_2.11/srcs/play-server_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-server_2.12/srcs/play-server_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-server_2.12/jars/play-server_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-server_2.11/docs/play-server_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-server_2.12/docs/play-server_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play_2.12/srcs/play_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play_2.11/docs/play_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play_2.12/docs/play_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.6.20.jar">
@@ -56,9 +56,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.slf4j/jcl-over-slf4j/docs/jcl-over-slf4j-1.7.25-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-streams_2.11/srcs/play-streams_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-streams_2.12/srcs/play-streams_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-streams_2.12/jars/play-streams_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-streams_2.11/docs/play-streams_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-streams_2.12/docs/play-streams_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.2.jar">
@@ -66,14 +66,14 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.reactivestreams/reactive-streams/docs/reactive-streams-1.0.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.5.17.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.17.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/docs/akka-stream_2.11-2.5.17-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/docs/akka-stream_2.12-2.5.17-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.18-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.5.18.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.18-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.18.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.5.18-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/docs/akka-actor_2.12-2.5.18-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe/config/srcs/config-1.3.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar">
@@ -81,29 +81,29 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe/config/docs/config-1.3.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.8.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.8.0.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/docs/scala-java8-compat_2.11-0.8.0-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/docs/scala-java8-compat_2.12-0.8.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/srcs/akka-protobuf_2.11-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/jars/akka-protobuf_2.11-2.5.17.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/jars/akka-protobuf_2.12-2.5.17.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/docs/akka-protobuf_2.11-2.5.17-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/docs/akka-protobuf_2.12-2.5.17-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.11/srcs/ssl-config-core_2.11-0.2.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.4.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.2.4.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.11/docs/ssl-config-core_2.11-0.2.4-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe/ssl-config-core_2.12/docs/ssl-config-core_2.12-0.2.4-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.6.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.0.6-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/docs/scala-parser-combinators_2.12-1.1.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/srcs/akka-slf4j_2.11-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.5.17.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.17-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.5.17.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/docs/akka-slf4j_2.11-2.5.17-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/docs/akka-slf4j_2.12-2.5.17-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.8.11-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.8.11.jar">
@@ -117,34 +117,29 @@
     </attributes>
   </classpathentry>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.6.10-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.6.10.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-json_2.12/srcs/play-json_2.12-2.6.10-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-json_2.12/jars/play-json_2.12-2.6.10.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-json_2.11/docs/play-json_2.11-2.6.10-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-json_2.12/docs/play-json_2.12-2.6.10-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.6.10-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.6.10.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-functional_2.12/srcs/play-functional_2.12-2.6.10-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-functional_2.12/jars/play-functional_2.12-2.6.10.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-functional_2.11/docs/play-functional_2.11-2.6.10-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-functional_2.12/docs/play-functional_2.12-2.6.10-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.12-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.8-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.12-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.12.8-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.typelevel/macro-compat_2.12/srcs/macro-compat_2.12-1.1.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.typelevel/macro-compat_2.11/docs/macro-compat_2.11-1.1.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.typelevel/macro-compat_2.12/docs/macro-compat_2.12-1.1.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.9.9-javadoc.jar!/"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.google.guava/guava/srcs/guava-22.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.guava/guava/bundles/guava-22.0.jar">
-    <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.google.guava/guava/docs/guava-22.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.google.errorprone/error_prone_annotations/srcs/error_prone_annotations-2.0.18-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.errorprone/error_prone_annotations/jars/error_prone_annotations-2.0.18.jar">
@@ -183,14 +178,14 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/javax.inject/javax.inject/docs/javax.inject-1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java-forms_2.11/srcs/play-java-forms_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java-forms_2.11/jars/play-java-forms_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java-forms_2.12/srcs/play-java-forms_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java-forms_2.12/jars/play-java-forms_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java-forms_2.11/docs/play-java-forms_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java-forms_2.12/docs/play-java-forms_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java_2.11/srcs/play-java_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java_2.12/srcs/play-java_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java_2.12/jars/play-java_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java_2.11/docs/play-java_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-java_2.12/docs/play-java_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.11.jar"/>
@@ -235,14 +230,14 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.springframework/spring-beans/docs/spring-beans-4.3.11.RELEASE-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/srcs/filters-helpers_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/filters-helpers_2.12/srcs/filters-helpers_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/filters-helpers_2.12/jars/filters-helpers_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/docs/filters-helpers_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/filters-helpers_2.12/docs/filters-helpers_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-logback_2.11/srcs/play-logback_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-logback_2.12/srcs/play-logback_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-logback_2.12/jars/play-logback_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-logback_2.11/docs/play-logback_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-logback_2.12/docs/play-logback_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
@@ -255,24 +250,24 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.2.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.11/srcs/play-akka-http-server_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.11/jars/play-akka-http-server_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/srcs/play-akka-http-server_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/jars/play-akka-http-server_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.11/docs/play-akka-http-server_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-akka-http-server_2.12/docs/play-akka-http-server_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/srcs/akka-http-core_2.11-10.0.14-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.14.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.0.14-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.14.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/docs/akka-http-core_2.11-10.0.14-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/docs/akka-http-core_2.12-10.0.14-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/srcs/akka-parsing_2.11-10.0.14-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-10.0.14.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.0.14-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.0.14.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/docs/akka-parsing_2.11-10.0.14-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/docs/akka-parsing_2.12-10.0.14-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-guice_2.11/srcs/play-guice_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-guice_2.11/jars/play-guice_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-guice_2.12/srcs/play-guice_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-guice_2.12/jars/play-guice_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-guice_2.11/docs/play-guice_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-guice_2.12/docs/play-guice_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.google.inject/guice/srcs/guice-4.1.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.inject/guice/jars/guice-4.1.0.jar">
@@ -286,9 +281,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/docs/guice-assistedinject-4.1.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/srcs/jackson-module-scala_2.11-2.9.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.9.6.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/srcs/jackson-module-scala_2.12-2.9.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/bundles/jackson-module-scala_2.12-2.9.6.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/docs/jackson-module-scala_2.11-2.9.6-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/docs/jackson-module-scala_2.12-2.9.6-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.6-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.6.jar">
@@ -407,7 +402,7 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.datastax.cassandra/cassandra-driver-mapping/docs/cassandra-driver-mapping-3.6.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.4.0.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-core_2.12/srcs/spark-core_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-core_2.12/jars/spark-core_2.12-2.4.4.jar"/>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.8.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.avro/avro/jars/avro-1.8.2.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.apache.avro/avro/docs/avro-1.8.2-javadoc.jar!/"/>
@@ -423,9 +418,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/docs/jackson-mapper-asl-1.9.13-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.7.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.xerial.snappy/snappy-java/jars/snappy-java-1.1.7.1.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.7.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.7.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.1.7.1-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.xerial.snappy/snappy-java/docs/snappy-java-1.1.7.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.8.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.8.1.jar">
@@ -444,9 +439,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.apache.avro/avro-ipc/docs/avro-ipc-1.8.2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.twitter/chill_2.11/srcs/chill_2.11-0.9.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.9.3.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.twitter/chill_2.12/srcs/chill_2.12-0.9.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.twitter/chill_2.12/jars/chill_2.12-0.9.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.twitter/chill_2.11/docs/chill_2.11-0.9.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.twitter/chill_2.12/docs/chill_2.12-0.9.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.twitter/chill-java/srcs/chill-java-0.9.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.9.3.jar">
@@ -524,7 +519,6 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/commons-beanutils/commons-beanutils/docs/commons-beanutils-1.7.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar"/>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar!/"/>
@@ -661,15 +655,15 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/docs/hadoop-mapreduce-client-jobclient-2.6.5-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-launcher_2.11/srcs/spark-launcher_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.4.0.jar"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-tags_2.11/srcs/spark-tags_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.4.0.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-launcher_2.12/srcs/spark-launcher_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-launcher_2.12/jars/spark-launcher_2.12-2.4.4.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-tags_2.12/srcs/spark-tags_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-tags_2.12/jars/spark-tags_2.12-2.4.4.jar"/>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.spark-project.spark/unused/srcs/unused-1.0.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.spark-project.spark/unused/docs/unused-1.0.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/srcs/spark-kvstore_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/jars/spark-kvstore_2.11-2.4.0.jar"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-common_2.11/srcs/spark-network-common_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.4.0.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-kvstore_2.12/srcs/spark-kvstore_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-kvstore_2.12/jars/spark-kvstore_2.12-2.4.4.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-common_2.12/srcs/spark-network-common_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-common_2.12/jars/spark-network-common_2.12-2.4.4.jar"/>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.1.17.Final-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.1.17.Final.jar">
     <attributes>
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/io.netty/netty-all/docs/netty-all-4.1.17.Final-javadoc.jar!/"/>
@@ -680,8 +674,8 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.apache.commons/commons-crypto/docs/commons-crypto-1.0.0-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/srcs/spark-network-shuffle_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/jars/spark-network-shuffle_2.11-2.4.0.jar"/>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/srcs/spark-unsafe_2.11-2.4.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/jars/spark-unsafe_2.11-2.4.0.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.12/srcs/spark-network-shuffle_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.12/jars/spark-network-shuffle_2.12-2.4.4.jar"/>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-unsafe_2.12/srcs/spark-unsafe_2.12-2.4.4-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.spark/spark-unsafe_2.12/jars/spark-unsafe_2.12-2.4.4.jar"/>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/javax.activation/activation/srcs/activation-1.1.1-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/javax.activation/activation/jars/activation-1.1.1.jar"/>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/javax.servlet/javax.servlet-api/srcs/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar">
     <attributes>
@@ -703,29 +697,34 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.github.luben/zstd-jni/docs/zstd-jni-1.3.2-2-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.roaringbitmap/RoaringBitmap/srcs/RoaringBitmap-0.5.11-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.roaringbitmap/RoaringBitmap/srcs/RoaringBitmap-0.7.45-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.roaringbitmap/RoaringBitmap/jars/RoaringBitmap-0.7.45.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.roaringbitmap/RoaringBitmap/docs/RoaringBitmap-0.5.11-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.roaringbitmap/RoaringBitmap/docs/RoaringBitmap-0.7.45-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-jackson_2.11/srcs/json4s-jackson_2.11-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-jackson_2.11/jars/json4s-jackson_2.11-3.5.3.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.roaringbitmap/shims/srcs/shims-0.7.45-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.roaringbitmap/shims/jars/shims-0.7.45.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-jackson_2.11/docs/json4s-jackson_2.11-3.5.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.roaringbitmap/shims/docs/shims-0.7.45-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-core_2.11/srcs/json4s-core_2.11-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.5.3.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-jackson_2.12/srcs/json4s-jackson_2.12-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-jackson_2.12/jars/json4s-jackson_2.12-3.5.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-core_2.11/docs/json4s-core_2.11-3.5.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-jackson_2.12/docs/json4s-jackson_2.12-3.5.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-ast_2.11/srcs/json4s-ast_2.11-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.5.3.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-core_2.12/srcs/json4s-core_2.12-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.5.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-ast_2.11/docs/json4s-ast_2.11-3.5.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-core_2.12/docs/json4s-core_2.12-3.5.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-scalap_2.11/srcs/json4s-scalap_2.11-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.5.3.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-ast_2.12/srcs/json4s-ast_2.12-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.5.3.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-scalap_2.11/docs/json4s-scalap_2.11-3.5.3-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-ast_2.12/docs/json4s-ast_2.12-3.5.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.json4s/json4s-scalap_2.12/srcs/json4s-scalap_2.12-3.5.3-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.json4s/json4s-scalap_2.12/jars/json4s-scalap_2.12-3.5.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.json4s/json4s-scalap_2.12/docs/json4s-scalap_2.12-3.5.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/org.glassfish.jersey.core/jersey-client/srcs/jersey-client-2.22.2-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/org.glassfish.jersey.core/jersey-client/jars/jersey-client-2.22.2.jar">
@@ -870,9 +869,9 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.rocksdb/rocksdbjni/docs/rocksdbjni-5.0.1-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-test_2.11/srcs/play-test_2.11-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-test_2.11/jars/play-test_2.11-2.6.20.jar">
+  <classpathentry sourcepath="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-test_2.12/srcs/play-test_2.12-2.6.20-sources.jar" kind="lib" path="/home/jainebudke/.ivy2/cache/com.typesafe.play/play-test_2.12/jars/play-test_2.12-2.6.20.jar">
     <attributes>
-      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-test_2.11/docs/play-test_2.11-2.6.20-javadoc.jar!/"/>
+      <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/com.typesafe.play/play-test_2.12/docs/play-test_2.12-2.6.20-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/junit/junit/jars/junit-4.12.jar"/>
@@ -908,6 +907,7 @@
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.commons/commons-exec/jars/commons-exec-1.3.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.8.0.jar"/>
+  <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/com.google.guava/guava/jars/guava-23.0.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.3.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.6.jar"/>
   <classpathentry kind="lib" path="/home/jainebudke/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.1.0.jar"/>
@@ -1013,7 +1013,7 @@
       <attribute name="javadoc_location" value="jar:file:/home/jainebudke/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/docs/selenium-firefox-driver-3.5.3-javadoc.jar!/"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="lib" path="./target/scala-2.11/classes_managed"/>
+  <classpathentry kind="lib" path="./target/scala-2.12/classes_managed"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>

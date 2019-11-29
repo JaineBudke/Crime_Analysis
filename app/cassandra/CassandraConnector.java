@@ -98,7 +98,7 @@ public class CassandraConnector {
     
     public static ResultSet selectFilters( String column, String value ) {
     	
-    	return session.execute("select count(*) from furtos.furtostable where "+column+"='"+value+"' ALLOW FILTERING;");
+    	return session.execute("select count(*) as coun from furtos.furtostable where "+column+"='"+value+"' ALLOW FILTERING;");
     	
     }
     

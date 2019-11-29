@@ -32,10 +32,11 @@ public class Classifier {
 		Row result1 = cor.one();
 		Row result2 = turno.one();
 		Row result3 = sexo.one();
+
 		
-		retorno += result1.getInt(0)+",";
-		retorno += result2.getInt(0)+",";
-		retorno += result3.getInt(0);
+		retorno += result1.getLong("coun")+",";
+		retorno += result2.getLong("coun")+",";
+		retorno += result3.getLong("coun");
 		
 		CassandraConnector.closeConnection();
 		

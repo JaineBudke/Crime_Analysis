@@ -16,7 +16,6 @@ public class Classifier {
 		
 		CassandraConnector.startConnection();
 		CassandraConnector.startSession("furtos");
-		System.out.println("fez a conexao");
 
 		
 		ResultSet cor  = CassandraConnector.selectFilters("cor",parts[0]);
@@ -115,7 +114,7 @@ public class Classifier {
 			classif = "POUCO SEGURO";
 		}
 			
-		return classif;
+		return classif+". Dados: cor "+qntCor+"; turno "+qntTurno+"; sexo "+qntSexo;
 		
 
 		

@@ -6,26 +6,19 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
+import com.datastax.driver.core.ResultSet;
+import com.datastax.driver.core.Row;
+
 import akka.actor.AbstractActor;
 import akka.actor.Props;
 import akka.actor.AbstractActor.Receive;
+import cassandra.CassandraConnector;
 import kafka.Manager;
 
 public class ProcessActor extends AbstractActor{
 
-/*    
-    public Integer num = 0;
-
-    public ProcessActor() {
-		SparkConf conf = new SparkConf(true)//
-				.setAppName("MyApp")//
-				.setMaster("spark://10.128.0.6:7077");		
-   		JavaSparkContext sc = new JavaSparkContext(conf);
-    	JavaRDD<Integer> numbers = sc.parallelize(Arrays.asList(14,21,88,99,455)); 
-		num = numbers.first();
-		sc.close();
-    }
-*/	
+	
+	
 	public static Props props() {
 		return Props.create(ProcessActor.class);
 	}
@@ -35,37 +28,47 @@ public class ProcessActor extends AbstractActor{
 	@Override
 	public Receive createReceive() {
 		return receiveBuilder()
+				
 				.match(String.class, s -> {
-					sender().tell(process(s)+", I'm an actor using Spark!");
-				})
-		        .build();
+					sender().tell(process(s)+", I'm an actor!", getSelf());
+	            })
+				/*.match(String.class, msg-> {
+					consumerActor.tell(msg, getSelf());
+				})*/
+		        .match(Integer.class, msg-> {
+		        	getSender().tell(msg, self());
+		        })
+				.build();
 	}
 	
 	public String process(String s){
 
+		String[] parts = s.split(",");
 		
+		String retorno = "";
+		
+		CassandraConnector.startConnection();
+		CassandraConnector.startSession("furtos");
+		
+		ResultSet cor  = CassandraConnector.selectFilters("cor",parts[0]);
+		ResultSet turno = CassandraConnector.selectFilters("turno",parts[1]);
+		ResultSet sexo  = CassandraConnector.selectFilters("sexo",parts[2]);
+		
+		
+		Row result1 = cor.one();
+		Row result2 = turno.one();
+		Row result3 = sexo.one();
+		
+		retorno += result1.getInt(0)+",";
+		retorno += result2.getInt(0)+",";
+		retorno += result3.getInt(0);
+		
+		CassandraConnector.closeConnection();
+		
+		
+		return retorno;
 
 	}
 
-	/*
-
-<<<<<<< HEAD
-		// Processar mensagem
-		String[] parts = line.split(",");
-		
-		SparkConf conf = new SparkConf()//
-				.setAppName("MyApp")//
-				.setMaster("spark://10.128.0.6:7077");		
-		JavaSparkContext sc = new JavaSparkContext(conf);
-    	JavaRDD<Integer> numbers = sc.parallelize(Arrays.asList(14,21,88,99,455)); 
-    	int num = numbers.first();
-    	sc.close();
-        
-		
-		return "Processou: "+parts[0]+" e "+parts[1]+" e "+ parts[2] + " Spark:"+num;
-		
-	}
-=======
->>>>>>> 1be2e2a5aef77a5f7d52fc51554b883f06ea19f9
-*/
+	
 }

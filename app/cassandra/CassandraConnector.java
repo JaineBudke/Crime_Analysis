@@ -1,6 +1,7 @@
 package cassandra;
 
 import com.datastax.driver.core.Cluster;
+import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Session;
 
 public class CassandraConnector {
@@ -92,6 +93,12 @@ public class CassandraConnector {
     	
     	session.execute("INSERT INTO "+table+" ("+campos+") VALUES ("+values+")");
     	
+    	
+    }
+    
+    public static ResultSet selectFilters( String column, String value ) {
+    	
+    	return session.execute("select count(*) from furtos.furtostable where "+column+"='"+value+"' ALLOW FILTERING;");
     	
     }
     

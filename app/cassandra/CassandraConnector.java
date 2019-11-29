@@ -19,7 +19,6 @@ public class CassandraConnector {
     public static void startConnection() {
     	try {
         	cluster = connect("10.128.0.4");	
-        	//cluster = connect("146.148.75.137");	
         	
     	} catch (Exception e) {
     		System.out.println("CONEXÃO INCOMPLETA");

@@ -32,7 +32,7 @@ public class ProducerActor extends AbstractActor{
 	}
 	
 	private String producer(String line) {
-		
+				
 		Manager.runProducer();
 		
 		return "Produzindo";

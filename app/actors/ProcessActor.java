@@ -31,11 +31,8 @@ public class ProcessActor extends AbstractActor{
 		return receiveBuilder()
 				
 				.match(String.class, s -> {
-					sender().tell(process(s)+", I'm an actor!", getSelf());
+					sender().tell(process(s), getSelf());
 	            })
-				/*.match(String.class, msg-> {
-					consumerActor.tell(msg, getSelf());
-				})*/
 		        .match(Integer.class, msg-> {
 		        	getSender().tell(msg, self());
 		        })

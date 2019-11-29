@@ -33,26 +33,26 @@ public class ArchiveRead {
 		 * DATASETs
 		 */
 		// caminho do dataset
-		String fileName1 = "data/RDO_1.csv";
-		String fileName2 = "data/RDO_2.csv";
-		String fileName3 = "data/RDO_3_100.csv";
+		//String fileName1 = "data/RDO_1.csv";
+		//String fileName2 = "data/RDO_2.csv";
+		String fileName3 = "data/RDO_3.csv";
 		
 		
 		// dataset
-		this.file1 = new File(fileName1);
-		this.file2 = new File(fileName2);
+		//this.file1 = new File(fileName1);
+		//this.file2 = new File(fileName2);
 		this.file3 = new File(fileName3);
 		
 		
 		// leitor de arquivo
-		this.arc1 = new Scanner(file1);
-		this.arc2 = new Scanner(file2);
+		//this.arc1 = new Scanner(file1);
+		//this.arc2 = new Scanner(file2);
 		this.arc3 = new Scanner(file3);
 		
 		
 		// ignora primeira linha: cabecalho
-		arc1.nextLine();
-		arc2.nextLine();
+		//arc1.nextLine();
+		//arc2.nextLine();
 		arc3.nextLine();
 		
 		

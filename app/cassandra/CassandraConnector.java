@@ -102,4 +102,13 @@ public class CassandraConnector {
     	
     }
     
+    public static ResultSet countAllData() {
+    	
+    	return session.execute("select count(*) as coun from furtos.furtostable ALLOW FILTERING;");
+    	
+    }
+    
+    
+    
+    
 }

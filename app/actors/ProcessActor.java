@@ -45,8 +45,8 @@ public class ProcessActor extends AbstractActor{
 	public String process(String s){
 
 		Classifier classif = new Classifier();
-		return classif.processData(s);
-		
+		String processados = classif.processData(s);
+		return classif.classifyData(processados);
 
 	}
 

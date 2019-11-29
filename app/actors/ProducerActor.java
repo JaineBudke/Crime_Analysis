@@ -5,7 +5,6 @@ import akka.actor.ActorRef;
 import akka.actor.Props;
 import cassandra.CassandraConnector;
 import kafka.Manager;
-import messages.ResultRequest;
 
 public class ProducerActor extends AbstractActor{
 
